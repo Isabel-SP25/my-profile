@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: #6d071a;
+    position: absolute;
+    width: 100%;
+    height: 9%;
+    color: white;
+    
+}
+
+.texte_1{
+    position: relative;
+    top: 20%;
+    text-align: center;
+
+}
+
+
+.a{
+    box-shadow: 1px 6px 17px gray;
+    border-radius: 10px;
+    margin-right: 15% ;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    background-color: #6d071a;
+    color: white;
+    text-align: center;
+}
+
+.titre_annonce{
+    position: absolute;
+    left: 25%;
+    top: 13%;
+}
+.logo{
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    background-image: url(images/logo.png);
+    height: 60px;
+    width: 89px;
+}
+.annonce_1{
+    background-image: url(images/chaussure.jpg);
+    position: absolute;
+    top: 20%;
+    height: 70%;
+    width: 50%;
+    left: 25%;
+
+}
+
+.btn{
+    position: absolute;
+    bottom: 3%;
+    width: 4%;
+    height: 4%;
+}
+
+.search{
+    position: absolute;
+    width: 15%;
+    height: 40%;
+    left: 82%;
+    top: 25%;
+
+}
+
+.pub_1{
+    position: absolute;
+    text-align: center;
+    top: 11%;
+    left: 1%;
+    height: 85%;
+    width: 13%;
+    background-color: white;
+    opacity: 0.5;
+    background-image: url(images/vacances.jpg);
+}
+
+.pub_2{
+    position: absolute;
+    text-align: center;
+    top: 11%;
+    left: 86%;
+    height: 85%;
+    width: 13%;
+    background-color: white;
+    opacity: 0.5;
+    background-image: url(images/vacances.jpg);   
+}
